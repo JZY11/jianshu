@@ -5,7 +5,7 @@
 
     <bean id="userDaoImpl" class="jianshu.aliya.xin.dao.impl.UserDaoImpl"/>
 
-    <bean id="userAction" class="jianshu.aliya.xin.servlet.UserAction">
-        <property name="userDao" ref="userDaoImpl"/>
-    </bean>
+    <!--<bean id="userAction" class="jianshu.aliya.xin.servlet.UserAction">-->
+        <!--<property name="userDao" ref="userDaoImpl"/>userAction为一servlet,所以这样配置是不对的-->
+    <!--</bean>-->
 </beans>
